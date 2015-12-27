@@ -188,6 +188,10 @@ def fit_predict_model(city_data):
     print "House: " + str(x)
     print "Prediction: " + str(y)
     print "Best model parameter: " + str(reg.best_params_)
+    
+    # est = reg.best_estimator_ # Retrieve the best estimator
+    # y = est.predict(your_sample_vector) # Use the object 'est' to make a prediction
+    # print "Price prediction: " + str(y)
 
 
 def main():
