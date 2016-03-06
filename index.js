@@ -1,3 +1,6 @@
+// From Joel Grus Plyglot Twitter Bot blog post series
+// http://joelgrus.com/2015/12/29/polyglot-twitter-bot-part-2-nodejs-aws-lambda/
+
 var Twitter = require('twitter');
 
 /**
